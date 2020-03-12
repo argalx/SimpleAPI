@@ -11,7 +11,7 @@ namespace SimpleAPI.Test
         public void GetReturnedWeatherForecast()
         {
             var returnValue = arvin.Get(1);
-            Assert.Equal("Arvin Bonggal", returnValue.Value);
+            Assert.Equal("Arvin Pogi", returnValue.Value);
         }
 
         [Fact]
